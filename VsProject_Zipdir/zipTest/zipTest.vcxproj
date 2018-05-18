@@ -69,7 +69,7 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>../../zipdir_src;$(IncludePath)</IncludePath>
+    <IncludePath>../../zipdir_src/zlib;../../zipdir_src;$(IncludePath)</IncludePath>
     <OutDir>../../bin</OutDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">

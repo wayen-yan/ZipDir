@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include<tchar.h>
 #include "ZHead.h"
+#include "unzip.h"
 
 
 int main(void)
